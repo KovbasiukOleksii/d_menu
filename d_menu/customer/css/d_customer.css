@@ -1,0 +1,234 @@
+.d_menu .area {
+	float: left;
+	background: #e2e2e2;
+	width: 100%;
+	height: 100%;
+}
+
+.d_menu a:hover, 
+.d_menu a:focus {
+	text-decoration:none;
+}
+
+.d_menu nav {
+	-webkit-user-select:none;
+	-moz-user-select:none;
+	-ms-user-select:none;
+	-o-user-select:none;
+	user-select:none;
+}
+
+.d_menu nav ul,nav li {
+	outline:0;
+	margin:0;
+	padding:0;
+}
+
+.d_menu .main-menu li:hover>a,nav.main-menu li.active>a,.dropdown-menu>li>a:hover,.dropdown-menu>li>a:focus,.dropdown-menu>.active>a,.dropdown-menu>.active>a:hover,.dropdown-menu>.active>a:focus,.no-touch .dashboard-page nav.dashboard-menu ul li:hover a,.dashboard-page nav.dashboard-menu ul li.active a {
+	color: #F2F2F2;
+	background-color: #2F80ED;
+}
+
+
+.d_menu .sprite {
+	background: url(../img/d_menu_icon.png);
+	background-repeat: no-repeat;
+	background-position: 8px 9px;
+	display: table-cell;
+	width: 35px;
+	height: 42px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.d_menu .order {
+	background-position: 8px 9px;
+}
+
+.d_menu .order_online {
+	background-position: -34px 9px;
+}
+
+.d_menu .order_online .quantity {
+	font-size: 8px;
+	background: #219653;
+	border-radius: 5px;
+	position: relative;
+	top: -12px;
+    left: 22px;
+    max-width: 22px;
+    color: #fff;
+}
+
+.d_menu .sms .quantity {
+	font-size: 8px;
+	background: #EB5757;
+	border-radius: 5px;
+	position: relative;
+	top: -6px;
+    left: 24px;
+    max-width: 18px;
+    color: #fff;
+}
+
+.d_menu .claims {
+	background-position: -74px 9px;
+}
+
+.d_menu .docs {
+	background-position: -112px 9px;
+}
+
+.d_menu .preferences {
+	background-position: -147px 9px;
+}
+
+.d_menu .ban {
+	background-position: -188px 9px;
+}
+
+.d_menu .statistics {
+	background-position: -228px 9px;
+}
+
+.d_menu .prices_monitor {
+	background-position: -265px 9px;
+}
+
+.d_menu .possible_positions {
+	background-position: -307px 9px;
+}
+
+.d_menu .avrg_price {
+	background-position: -392px 9px;
+}
+
+.d_menu .avia_price {
+	background-position: -430px 9px;
+}
+
+.d_menu .btc {
+	background-position: -468px 9px;
+}
+
+.d_menu .sms {
+	background-position: -510px 9px;
+}
+
+.d_menu .settings {
+	background-position: -548px 9px;
+}
+
+.d_menu .home {
+	background-position: -627px 9px;
+}
+
+.d_menu .exit {
+	background-position: -587px 9px;
+}
+
+
+.d_menu .main-menu:hover,nav.main-menu.expanded {
+	width: 236px;
+	overflow: visible;
+}
+
+.d_menu .main-menu {
+	background: #333A4A;
+	border-right: 1px solid #e5e5e5;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	height: 100%;
+	left: 0;
+	width: 50px;
+	overflow: hidden;
+	overflow-y: auto;
+	-webkit-transition: width .05s linear;
+	transition: width .05s linear;
+	-webkit-transform: translateZ(0) scale(1,1);
+	z-index: 1000;
+	padding: 10px 0;
+}
+
+.d_menu .main-menu .logo img {
+	width: 160px;
+	margin-left: 9px;
+	padding-bottom: 15px;
+}
+
+.d_menu nav h3 {
+	margin-left: 50px;
+	font-size: 14px;
+	font-weight: normal;
+	color: #F2F2F2;
+}
+
+.d_menu .main-menu > ul {
+	margin: 5px 0;
+}
+
+.d_menu .main-menu li {
+	position: relative;
+	display: block;
+	width: 250px;
+}
+
+.d_menu .main-menu li.active_link {
+	border-left: 2px solid #2F80ED;
+}
+
+.d_menu .main-menu li > a {
+	position: relative;
+	display: table;
+	border-collapse: collapse;
+	border-spacing: 0;
+	font-family: arial;
+	font-size: 12px;
+	text-decoration: none;
+	-webkit-transform: translateZ(0) scale(1,1);
+	-webkit-transition: all .1s linear;
+	transition: all .1s linear; 
+}
+
+.d_menu .main-menu .nav-icon {
+	position: relative;
+	display: table-cell;
+	width: 60px;
+	height: 36px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.d_menu .main-menu .nav-text {
+	position: relative;
+	display: table-cell;
+	vertical-align: middle;
+	width: 200px;
+	color: #F2F2F2; 
+	padding-left: 15px;
+	padding-right: 7px;
+	font-size: 12px;
+}
+
+
+.d_menu .main-menu ul.logout {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	background: #333A4A;
+	width: 200px;
+}
+
+.d_menu ul.set {
+	margin-top: 5px;
+}
+
+.d_menu .no-touch .scrollable.hover {
+	overflow-y: auto;
+}
+
+.d_menu .no-touch .scrollable.hover:hover {
+	overflow-y: auto;
+}
+
